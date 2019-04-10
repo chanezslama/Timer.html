@@ -1,33 +1,30 @@
 .App {
-  text-align: center;
+  margin-top: 150px;
+  font-family: sans-serif;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.timer{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  text-align: center;
+  
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 30px;
+  border-radius: 15px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffe8+0,d6dbbf+100;Wax+3D+%231 */
+background: #feffe8; /* Old browsers */
+background: -moz-linear-gradient(top, #feffe8 0%, #d6dbbf 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #feffe8 0%,#d6dbbf 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #feffe8 0%,#d6dbbf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', endColorstr='#d6dbbf',GradientType=0 ); /* IE6-9 */
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+}
+.timer-time{
+  font-size: 60px;
+}
+.timer-time-text{
+  font-size: 15px;
+  color: gray;
 }
